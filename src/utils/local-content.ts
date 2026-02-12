@@ -2,8 +2,8 @@ import * as fs from 'fs';
 import path from 'path';
 import { globSync } from 'glob';
 import frontmatter from 'front-matter';
-import { allModels } from '../../sources/local/models';
-import { Config } from '../../sources/local/models/Config';
+import { allModels } from '../../models';
+import { Config } from '../../models/Config';
 import { getPageUrl } from './page-utils';
 
 // TODO use types?
